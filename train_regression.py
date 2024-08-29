@@ -92,12 +92,7 @@ if __name__ == '__main__':
     num_classes = 7
     ##############################################################################################
 
-    # wandb.init(
-    # project='test', 
-    # name='regression~')
-    # config = wandb.config
-    # config.batch_size = batch_size
-    # tf.config.run_functions_eagerly(True)
+
 
     if os.path.exists('tmp/train.h5') and os.path.exists('tmp/val.h5'):
         print('loading datasets...')
