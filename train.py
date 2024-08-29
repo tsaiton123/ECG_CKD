@@ -1,4 +1,4 @@
-from test_model import *
+from Resnet import *
 import pandas as pd
 import numpy as np
 from utils import *

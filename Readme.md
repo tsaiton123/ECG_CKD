@@ -2,6 +2,8 @@
 原資料集位於 /home/bdm0065/snap/0065/physionet.org/files/mimic-iv-ecg/1.0/files/  
 
 To run :
+create a anaconda environment 
+
 pip install -r requirements.txt
 
 python3 train.py

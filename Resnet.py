@@ -197,5 +197,5 @@ class TransformerModel(Model):
         return keras.Model(inputs, outputs)
 
 if __name__ == "__main__":
-    model = get_model(6)
+    model = get_model()
     model.summary()

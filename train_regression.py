@@ -1,4 +1,5 @@
-from test_model import get_model
+from Resnet import get_model
+from CNN_BiLSTM import build_smaller_ecg_model
 import pandas as pd
 import numpy as np
 from utils import *
@@ -87,7 +88,7 @@ if __name__ == '__main__':
 
     ########################################## Config ############################################
     batch_size = 128
-    num_epoch = 500
+    num_epoch = 100
     segment_length = 1000
     num_classes = 7
     ##############################################################################################
